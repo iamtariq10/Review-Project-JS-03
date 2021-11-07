@@ -17,14 +17,23 @@ article{
     border-radius: 1rem;
     box-shadow: 0px 0px 5px black;
     padding: 1rem;
+    background-color: blanchedalmond;
 }
 h1{
     padding:2rem;
     font-family: 'Montserrat', sans-serif;
+    color: rgb(1, 104, 107);
+    text-shadow: 1px 1px solid black;
 }
 img{
     max-width:183px;
     clip-path: circle();
+    max-height: 200px;
+    outline-style:ridge;
+}
+h4{
+    color: rgb(1, 104, 107);
+    padding-top: 5px;
 }
 
 p{
@@ -45,4 +54,9 @@ button{
 }
 button:hover{
     background-color: rgba(255, 145, 0, 0.746);
+}
+
+span{
+    background-color: black;
+    border: 1px solid black;
 }
